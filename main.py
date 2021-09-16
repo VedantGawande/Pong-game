@@ -1,6 +1,6 @@
 import pygame, sys
 from random import choice
-# If score % 5 == 0: opponent_speed += 1
+
 def move_ball():
     global ball, screen_width, screen_height, ball_direction
     ball.center += int(ball_speed) * ball_direction
